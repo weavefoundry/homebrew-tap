@@ -3,24 +3,24 @@
 class Weavec < Formula
   desc "Memory-safe drop-in C compiler: every access checked at run time"
   homepage "https://weavec.com"
-  version "0.23.0"
+  version "0.24.0"
   license "Apache-2.0" => { with: "LLVM-exception" }
 
   on_macos do
     on_arm do
-      url "https://github.com/weavefoundry/weavec/releases/download/v0.23.0/weavec-0.23.0-darwin-arm64.tar.xz"
-      sha256 "8dd84717cfd65dbeb4a313e80b553a85f07eb71b0418e1ca5bd1873f0d90c7d6"
+      url "https://github.com/weavefoundry/weavec/releases/download/v0.24.0/weavec-0.24.0-darwin-arm64.tar.xz"
+      sha256 "6aad60172818d3bd64d191b982b09b36a15ed10385b6d9f6cde37dbf5f699483"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/weavefoundry/weavec/releases/download/v0.23.0/weavec-0.23.0-linux-x86_64.tar.xz"
-      sha256 "1b5c173da212dfafb52c25c0344ad26f2c4be912ad2913329cbe4951046988c2"
+      url "https://github.com/weavefoundry/weavec/releases/download/v0.24.0/weavec-0.24.0-linux-x86_64.tar.xz"
+      sha256 "1755da84a50785970181f8d9b3529e752b5b2acf688ca927826571ace1e88733"
     end
     on_arm do
-      url "https://github.com/weavefoundry/weavec/releases/download/v0.23.0/weavec-0.23.0-linux-aarch64.tar.xz"
-      sha256 "ff6402033452cc4693c3744d1e40f2cb4786651feeb4b26de210911a651bfc8a"
+      url "https://github.com/weavefoundry/weavec/releases/download/v0.24.0/weavec-0.24.0-linux-aarch64.tar.xz"
+      sha256 "4a663d860fd4686768fcad49e9311c7f4e1425c767b5658bbf9f26a375a636f8"
     end
   end
 
